@@ -1,0 +1,210 @@
+/* styles.css */
+#background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+}
+body {
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: white; /* Adjusted RGBA value */
+    color: black;
+    padding: 7px 0; 
+    display: flex;
+    
+}
+
+.header h1 {
+    margin: 0;
+    margin-left:40px; 
+    cursor: pointer;
+    margin-top: 20px;
+}
+.header nav{
+    margin-top: 0px;
+    margin-left: 510px;
+    
+    
+}
+.header nav ul {
+    list-style-type: none;
+    padding:  0 ;
+    
+}
+
+.header nav  ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 45px;
+    text-decoration: none;
+    font-weight: 700;
+    cursor:pointer;
+    
+}
+
+.header nav ul li button{
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    padding:15px 0;
+    width:150%;
+    font-weight: 700;
+    margin-top: 0px;
+    cursor:pointer;
+}
+.header nav ul li:hover {
+    text-decoration: underline;
+}
+.content h1{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 200px;
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.content h3{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 13px;
+    margin-left:100px;
+    margin-right: 700px;
+    font-weight: 400;
+}
+.content button {
+    transition: .5s;
+    color: white;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    background-color: black;
+    margin-left: 100px;
+    margin-top: 15px;
+    border-radius: 35px;
+    width: 15%;
+    padding: 20px 0;
+    cursor: pointer;
+    position: relative; /* Add a relative position to the button */
+    border: 0.5px  ; /* Set a transparent border */
+  }
+  
+  .content button::before {
+    content: ""; /* Add a pseudo-element */
+    position: absolute; /* Position the pseudo-element absolutely */
+    top: 0;
+    right: 0;
+    bottom: 0; /* Bottom position */
+    left: 0; /* Left position */
+    width: 100%; /* Full width */
+    height: 100%; /* Half height */
+    border: 2px solid transparent; /* Set a transparent border */
+    border-radius: 35px; /* Match the border radius of the button */
+    background: linear-gradient(to right, #6EC6F1, #7BA4ED, #828FEA, #8868DA, #7A51BC, #9E47E1, #A928DD); /* Apply the gradient */
+    z-index: -1; /* Send the pseudo-element behind the button */
+    background-clip: padding-box; /* Clip the gradient to the padding box */
+  }
+.content button:hover{
+    transition: .5s;
+    color:black;
+    background-color: white;
+    font-weight: 500;
+}
+
+
+.content img{
+    margin-left: 820px;
+    margin-top: -400px;
+    width:620px;
+}
+footer h1{
+    color: rgb(233, 233, 233);
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+footer p{
+    color: rgb(185, 185, 185);
+    margin-left: 1020px;
+    margin-top: -42px;
+    font-weight: 600;
+}
+.connections{
+    margin-left: 1070px;
+    margin-top: -100px;
+    
+
+}
+
+footer img{
+    filter: grayscale(100%);
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.logo-circle {
+    border-radius: 50%;
+    border: 3px solid #ccc; /* adjust the border color and width as needed */
+    padding: 3px; /* adjust the padding as needed */
+    cursor: pointer;
+}
+footer h5{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 1140px;
+}
+.newsletter{
+    color: white;
+    margin-left: 600px;
+    margin-top: -200PX;
+    margin-bottom: 20PX;
+}
+.newsletter h2{
+    background: linear-gradient(to right,#6EC6F1,#7BA4ED,#828FEA,#8868DA,#7A51BC,#9E47E1,#A928DD);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.newsletter button{
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border: 0.3px solid;
+    cursor: pointer;
+    font-size: 15px;
+}
+.list{
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+.list nav ul li{
+    list-style-type: none;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+footer{
+    margin-bottom: 70px;
+}
+

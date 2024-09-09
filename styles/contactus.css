@@ -1,0 +1,361 @@
+
+body {
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: white; /* Adjusted RGBA value */
+    color: black;
+    padding: 7px 0; 
+    display: flex;
+    
+}
+
+.header h1 {
+    margin: 0;
+    margin-left: 40px; 
+    cursor: pointer;
+    height: 35px;
+    margin-top: 20px;
+}
+.header nav{
+    margin-top: 0px;
+    margin-left: 510px;
+    
+    
+}
+.header nav ul {
+    list-style-type: none;
+    padding:  0 ;
+    
+}
+
+.header nav  ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 45px;
+    text-decoration: none;
+    font-weight: 700;
+    cursor:pointer;
+    
+}
+
+.header nav ul li button{
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    padding:15px 0;
+    width:150%;
+    font-weight: 700;
+    margin-top: 0px;
+    cursor:pointer;
+}
+.header nav ul li:hover {
+    text-decoration: underline;
+}
+.content h2{
+    margin-left:680px;
+    margin-top: 150px;
+    font-size: 22px;
+    background: linear-gradient(to right,#6EC6F1,#7BA4ED,#828FEA,#8868DA,#7A51BC,#9E47E1,#A928DD);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-weight: 600;  
+    
+}
+.content .line1{
+    margin-top: 25px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    font-weight: 650;
+    margin-bottom: 0;
+    
+}
+.content .line2{
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    font-weight: 650;
+    margin-top: 5px;
+}
+.content button {
+    transition: .5s;
+    color: white;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    background-color: black;
+    margin-left: 650px;
+    margin-top: 15px;
+    border-radius: 35px;
+    width: 15%;
+    padding: 20px 0;
+    cursor: pointer;
+    border-color: white ;
+    border: 3;
+  
+}
+.content button:hover{
+    transition: .5s;
+    color:black;
+    background-color: white;
+    font-weight: 500;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-left .modal-right {
+    width: 45%;
+}
+
+.modal .modal-content .modal-left h1{
+    margin: 0;
+    width: 210px; 
+    height: auto;
+    margin-left: 230px; 
+    cursor: pointer;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+.modal .modal-content .modal-left h4{
+    margin-left:75px;
+    font-size: 25px;
+}
+.modal .modal-content .modal-left h5{
+    margin-left:75px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.modal .modal-content .modal-left hr{
+    
+        border: 1px solid black;
+        margin-left: 45px;
+        width:100%;
+        margin-bottom:70px;;
+      
+}
+.modal .modal-content .modal-left button{
+    margin-left: 75px;
+    margin-top: 50px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 45px;
+    font-size: 20px;
+    cursor: pointer;
+
+
+}
+h2{
+    margin-left:680px;
+    margin-top: 120px;
+    font-size: 22px;
+    background: linear-gradient(to right,#6EC6F1,#7BA4ED,#828FEA,#8868DA,#7A51BC,#9E47E1,#A928DD);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-weight: 600;  
+    
+}
+.partners{
+    margin-top: -190px;
+    margin-bottom: 200px;
+}
+.partners .microsoft{
+
+    margin-left: 800px;
+}
+.partners .ibm{
+    margin-left: 40px;
+
+}
+.partners .google{
+    margin-left: 800px;
+
+}
+.partners .startupindia{
+    margin-left:40px;
+    margin-top: 30px;
+}
+.partners .rbih{
+    margin-left:40px;
+}
+.partners-content{
+    margin-top: 190px;
+    color: white;
+}
+.partners-content h3{
+    background: linear-gradient(to right,#6EC6F1,#7BA4ED,#828FEA,#8868DA,#7A51BC,#9E47E1,#A928DD);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 300px;
+
+}
+.partners-content h6{
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 260px;
+    margin-top: -10px;
+
+}
+.partners-content p{
+    font-size: 18px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.team{
+    margin-bottom: 300px;
+}
+.team h1{
+    background: linear-gradient(to right,#6EC6F1,#7BA4ED,#828FEA,#8868DA,#7A51BC,#9E47E1,#A928DD);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    margin-left: 680px;
+    font-size: 27px;
+    font-weight: 500;
+}
+.team img{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+footer h1{
+    color: rgb(233, 233, 233);
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+footer p{
+    color: rgb(185, 185, 185);
+    margin-left: 1020px;
+    margin-top: -42px;
+    font-weight: 600;
+}
+.connections{
+    margin-left: 1070px;
+    margin-top: -100px;
+    
+
+}
+
+footer img{
+    filter: grayscale(100%);
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.logo-circle {
+    border-radius: 50%;
+    border: 3px solid #ccc; /* adjust the border color and width as needed */
+    padding: 3px; /* adjust the padding as needed */
+    cursor: pointer;
+}
+footer h5{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 1140px;
+}
+.newsletter{
+    color: white;
+    margin-left: 600px;
+    margin-top: -200PX;
+    margin-bottom: 20PX;
+}
+.newsletter h2{
+    background: linear-gradient(to right,#6EC6F1,#7BA4ED,#828FEA,#8868DA,#7A51BC,#9E47E1,#A928DD);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.newsletter button{
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border: 0.3px solid;
+    cursor: pointer;
+    font-size: 15px;
+}
+.list{
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+.list nav ul li{
+    list-style-type: none;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+footer{
+    margin-bottom: 70px;
+}

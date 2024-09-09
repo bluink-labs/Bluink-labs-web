@@ -1,0 +1,19 @@
+@media (min-width: 742px) and (max-width: 1400px) {
+    .header nav{
+        margin-top: 0px;
+        margin-left: 230px;
+        
+    }
+    .content h1{
+        font-size: 36px;
+
+    }
+    .content h3{
+        font-size: 13px;
+    }
+    .content img{
+        margin-left: 620px;
+        margin-top: -400px;
+        width:520px;
+    }
+}
