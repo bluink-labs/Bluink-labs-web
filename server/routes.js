@@ -43,6 +43,9 @@ document.getElementById("whitepaper-footer").onclick = function(){
 document.getElementById("contactus-footer").onclick = function(){
     window.location.href = "contactus.html";
 };
+document.getElementById("signup").onclick = function(){
+    window.location.href = "newsletter-signup.html";
+};
 document.getElementById("linkedin").onclick = function() {
     window.open("https://www.linkedin.com/company/bluink-labs", "_blank");
 };
@@ -58,3 +61,5 @@ document.getElementById("instagram").onclick = function() {
 document.getElementById("developers-footer").onclick = function(){
     window.open("https://bluink-labs.gitbook.io/bluink-labs-developer-docs","_blank");
 };
+
+
