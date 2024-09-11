@@ -18,7 +18,8 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-//meeting email
+/*'
+meeting email
 var modal = document.getElementById("meetingModal");
 var btn = document.getElementById("contactus-meeting");
 var span = document.getElementsByClassName("close")[0];
@@ -63,3 +64,4 @@ requestButton.onclick = function() {
         alert('Please enter a valid email address.');
     }
 }
+*/
